@@ -1,0 +1,17 @@
+.paragraph{
+	width:500px;
+	
+
+}
+.paragraph h1{
+	font-family: 'Fredoka One', cursive;
+	font-family: 'Pacifico', cursive;
+}
+.paragraph p{
+	word-spacing:2px;
+	line-height:30px;
+	text-align:justify;
+	font-family: 'Pacifico', cursive;
+	text-decoration:line-through;
+}
+
