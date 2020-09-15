@@ -1,12 +1,23 @@
 body{
 	background:#68BE4B
 }
+.header{
+	text-transform:uppercase;
+	text-align:center;
+	padding-bottom:25px;
+	font-size:30px;
+	font-family:arial black;
+	color:#349d05;
+	text-shadow:1px 1px 2px black;
+	
+}
 .login{
 	width:320px;
 	padding:34px;
 	background:#fff;
 	margin:auto;
 	margin-top:300px;
+	box-shadow:0px 0px 0px 2px #565353;
 }
 .login input{
 	width:87%;
@@ -16,12 +27,18 @@ body{
 	border:none;
 	background:#F2F2F2;
 	color:#594A4A;
+	font-size:16px;
 	
 }
 .submit{
 	width:100% !important;
 	background:#00B241 !important;
 	color:#fff !important;
+	cursor:pointer;
+	font-family:arial black;
+}
+.submit:hover{
+	background:#00B241CC  !important;
 }
 .registerlink{
 	text-align:center;
@@ -33,5 +50,20 @@ body{
 	text-decoration:none;
 	color:#5DE87D;
 	
+}
+.registerlink a:hover{
+	color:#48B532;
+}
+.message_icon{
+	width:300px;
+	margin-left:1768px;
+	position:fixed;
+	margin-top:125px;
+}
+.message_icon img{
+	width:70px;
+}
+.message_icon img:hover{
+	width:90px;
 }
 
