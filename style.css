@@ -1,17 +1,37 @@
-.paragraph{
-	width:500px;
+body{
+	background:#68BE4B
+}
+.login{
+	width:320px;
+	padding:34px;
+	background:#fff;
+	margin:auto;
+	margin-top:300px;
+}
+.login input{
+	width:87%;
+	display:block;
+	padding:20px;
+	margin-bottom:22px;
+	border:none;
+	background:#F2F2F2;
+	color:#594A4A;
 	
-
 }
-.paragraph h1{
-	font-family: 'Fredoka One', cursive;
-	font-family: 'Pacifico', cursive;
+.submit{
+	width:100% !important;
+	background:#00B241 !important;
+	color:#fff !important;
 }
-.paragraph p{
-	word-spacing:2px;
-	line-height:30px;
-	text-align:justify;
-	font-family: 'Pacifico', cursive;
-	text-decoration:line-through;
+.registerlink{
+	text-align:center;
+}
+.registerlink span{
+	color:#999898db;
+}
+.registerlink a{
+	text-decoration:none;
+	color:#5DE87D;
+	
 }
 
